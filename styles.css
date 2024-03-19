@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans';
+
+}
+
+.Main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    background: linear-gradient(to top, #fff(0,0,0,0.5)50%, #fff(0,0,0,0.5)50%), url(img/pic 2.jpg);
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.mylogo{
+    width: 20%;
+    height: 30vh;
+    position: relative;
+    
+}
+
+.menu{
+    width: 550px;
+    float: left;
+    height: 65px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: chocolate;
+}
+
+.details{
+    margin-left: 8%;
+    margin-top: 75%;
+}
+
+.details h1{
+    font-size: 25px;
+    color:blueviolet;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    position: relative;
+}
+
+span{
+    color:blueviolet;
+}
+
+.details{
+    color:#555;
+    line-height: 22px;
+}
+
+.details a{
+    background: #212121;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    padding-left: 1200px;
+}
+
+.images:hover .me{
+    left: 45%;
+}
+
+.images shapes{
+width: 400px;
+}
+
+
